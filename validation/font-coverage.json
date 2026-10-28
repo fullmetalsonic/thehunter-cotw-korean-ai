@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "input_file": "string_ids.stringlookup",
+  "input_sha256": "992e6a38abf0c9e4ebfb9d9f3fc56b3437183d4f805af35069fd20ebfdb8ba1d",
+  "payload_sha256": "a1d40be8448cd265aadc6d6c843517e5f30777a40a7a28fa30a42dbf3f400a0b",
+  "rows": 22079,
+  "visible_codepoints": 1516,
+  "hangul_codepoints": 1404,
+  "fonts": [
+    {
+      "font_id": 1,
+      "runtime_alias": "Roboto Condensed Regular",
+      "visible_missing_count": 0,
+      "visible_missing": [],
+      "hangul_missing_count": 0,
+      "visible_blank_count": 0,
+      "visible_blank": []
+    },
+    {
+      "font_id": 2,
+      "runtime_alias": "League Gothic",
+      "visible_missing_count": 2,
+      "visible_missing": [
+        {
+          "codepoint": "U+00B0",
+          "character": "°"
+        },
+        {
+          "codepoint": "U+00B2",
+          "character": "²"
+        }
+      ],
+      "hangul_missing_count": 0,
+      "visible_blank_count": 0,
+      "visible_blank": []
+    }
+  ],
+  "interpretation": "PASS는 본문 font_id=1 가시문자와 두 폰트 한글 커버 기준. 제목 font_id=2 비한글 누락은 목록 참고.",
+  "runtime_test": "PASS: public-only relative-filesystem main menu; Esc/inventory/HUD and title-symbol fallback remain unverified"
+}

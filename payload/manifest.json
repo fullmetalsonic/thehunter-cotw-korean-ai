@@ -1,0 +1,17 @@
+{
+  "patchVersion": "1.0.0",
+  "supportedSteamBuild": "26051119",
+  "codeFinalVersion": "3366163",
+  "archivesVersion": "3322479",
+  "githubRepository": "fullmetalsonic/thehunter-cotw-korean-ai",
+  "files": [
+    {
+      "relativePath": "settings/hp_settings/string_ids.stringlookup",
+      "sha256": "992e6a38abf0c9e4ebfb9d9f3fc56b3437183d4f805af35069fd20ebfdb8ba1d"
+    },
+    {
+      "relativePath": "ui/font_en.gfx",
+      "sha256": "a1d40be8448cd265aadc6d6c843517e5f30777a40a7a28fa30a42dbf3f400a0b"
+    }
+  ]
+}

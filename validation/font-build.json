@@ -1,0 +1,108 @@
+{
+  "status": "PASS within stated coverage scope",
+  "public_display_name": "AI Korean Patch UI",
+  "payload_sha256": "a1d40be8448cd265aadc6d6c843517e5f30777a40a7a28fa30a42dbf3f400a0b",
+  "payload_bytes": 4680139,
+  "source_fonts": {
+    "Noto Sans KR": {
+      "file": "NotoSansKR-Regular.ttf",
+      "sha256": "9db318b65ee9c575a43e7efd273dbdd1afef26e467eea3e1073a50e1a6595f6d",
+      "bytes": 6192764,
+      "fsType": 0,
+      "license": "SIL OFL 1.1",
+      "copyright": "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+      "version": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+    },
+    "Noto Sans": {
+      "file": "NotoSans-Regular.ttf",
+      "sha256": "b85c38ecea8a7cfb39c24e395a4007474fa5a4fc864f6ee33309eb4948d232d5",
+      "bytes": 569208,
+      "fsType": 0,
+      "license": "SIL OFL 1.1",
+      "copyright": "Copyright 2015-2021 Google LLC. All Rights Reserved.",
+      "version": "Version 2.008; ttfautohint (v1.8) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X \"\""
+    }
+  },
+  "fonts": [
+    {
+      "font_id": 1,
+      "runtime_alias": "Roboto Condensed Regular",
+      "glyph_count": 11866,
+      "all_outlines_regenerated": true,
+      "glyph_sources": {
+        "Noto Sans KR": 11172,
+        "Noto Sans": 694
+      },
+      "code_map_id_name_flags_metrics_advances_kerning_preserved": true,
+      "all_shapes_independently_decoded": true,
+      "all_bounds_recomputed_and_verified": true,
+      "vertical_metrics_fit": true,
+      "positive_advance_glyphs_fit_width": true,
+      "corpus_coverage": {
+        "font_id": 1,
+        "runtime_alias": "Roboto Condensed Regular",
+        "visible_missing_count": 0,
+        "visible_missing": [],
+        "hangul_missing_count": 0,
+        "visible_blank_count": 0,
+        "visible_blank": []
+      }
+    },
+    {
+      "font_id": 2,
+      "runtime_alias": "League Gothic",
+      "glyph_count": 11486,
+      "all_outlines_regenerated": true,
+      "glyph_sources": {
+        "Noto Sans KR": 11172,
+        "Noto Sans": 314
+      },
+      "code_map_id_name_flags_metrics_advances_kerning_preserved": true,
+      "all_shapes_independently_decoded": true,
+      "all_bounds_recomputed_and_verified": true,
+      "vertical_metrics_fit": true,
+      "positive_advance_glyphs_fit_width": true,
+      "corpus_coverage": {
+        "font_id": 2,
+        "runtime_alias": "League Gothic",
+        "visible_missing_count": 2,
+        "visible_missing": [
+          {
+            "codepoint": "U+00B0",
+            "character": "°"
+          },
+          {
+            "codepoint": "U+00B2",
+            "character": "²"
+          }
+        ],
+        "hangul_missing_count": 0,
+        "visible_blank_count": 0,
+        "visible_blank": []
+      }
+    }
+  ],
+  "scope": "Body font1 covers all1516 visible characters. Bothfonts cover all1404 Hangul characters. Titlefont2 retains missing ° and² to preserve existingglyph indices and the requiredsorted code table.",
+  "glyph_addition_assessment": {
+    "checked_date": "2026-10-29",
+    "decision": "두 기호를 추가하지 않고 기존 glyph index 보존",
+    "font_id": 2,
+    "requested_additions": [
+      "U+00B0",
+      "U+00B2"
+    ],
+    "existing_code_map_strictly_sorted": true,
+    "insertion_index": 105,
+    "existing_indices_that_would_shift_by_two": 11381,
+    "append_would_violate_sorted_code_table": true,
+    "payload_unchanged": true,
+    "specification": "Adobe SWF File Format Specification Version 19, DefineFont3, CodeTable",
+    "printed_page": 165,
+    "pdf_page": 167,
+    "original_publication_url": "https://www.adobe.com/content/dam/acom/en/devnet/pdf/swf-file-format-spec.pdf",
+    "original_publication_url_status": "404 on 2026-10-29",
+    "verified_primary_document_mirror": "https://open-flash.github.io/mirrors/swf-spec-19.pdf#page=167",
+    "scaleform_unsorted_code_table_support": "미확인: 규약 위반 코드를 런타임에 허용한다고 가정하지 않음"
+  },
+  "runtime_test": "Recorded separately."
+}

@@ -1,0 +1,4 @@
+build/
+payload/dropzone/
+*.zip
+__pycache__/

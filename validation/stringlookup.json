@@ -1,0 +1,14 @@
+{
+  "slot0_values_exact": "PASS",
+  "other_nine_language_values_and_pairs": "PASS",
+  "all_ten_dialogue_blocks_and_ids": "PASS",
+  "all_unlisted_prefix_and_suffix_bytes": "PASS",
+  "adf_metadata_bounds_utf8_nul_unique_sorted_hashes": "PASS",
+  "original_sha256": "485e80c5c1a8e4cca83ecc2feb8fe92b89457c1d3c61bdea6353ffaad82e19b0",
+  "output_sha256": "992e6a38abf0c9e4ebfb9d9f3fc56b3437183d4f805af35069fd20ebfdb8ba1d",
+  "bytes": 40991462,
+  "append_bytes": 2182592,
+  "source_rows": 22079,
+  "installation_modified": false,
+  "input_policy": "Fresh translation from original game English and IDs only; no prior Korean translation inputs."
+}

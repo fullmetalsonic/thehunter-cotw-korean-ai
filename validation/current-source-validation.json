@@ -1,0 +1,18 @@
+{
+  "checked_utc": "2026-10-28T15:54:42.301022+00:00",
+  "status": "PASS",
+  "platform": "Steam",
+  "steam_build": "26051119",
+  "versions": {
+    "code_final": 3366163,
+    "archives": "3322479"
+  },
+  "resource_arc": "archives_win64/game72.arc",
+  "resource_offset": 295514112,
+  "resource_bytes": 38808870,
+  "resource_sha256": "485e80c5c1a8e4cca83ecc2feb8fe92b89457c1d3c61bdea6353ffaad82e19b0",
+  "tab_inventory_count": 144,
+  "tab_inventory_matches_previous_extraction": true,
+  "old_korean_translation_input": false,
+  "installed_files_modified": false
+}

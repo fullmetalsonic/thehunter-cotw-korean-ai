@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "zip_name": "theHunterCotW-AI-Korean-v1.0.0.zip",
+  "zip_bytes": 18493218,
+  "zip_sha256": "08ce468575a76ff44f740861d662a6f0f309d0d4d18ff65ee0a492567891733a",
+  "zip_members": 8,
+  "zip_crc_and_all_member_sha256_match": true,
+  "payload_files": [
+    {
+      "relativePath": "settings/hp_settings/string_ids.stringlookup",
+      "sha256": "992e6a38abf0c9e4ebfb9d9f3fc56b3437183d4f805af35069fd20ebfdb8ba1d"
+    },
+    {
+      "relativePath": "ui/font_en.gfx",
+      "sha256": "a1d40be8448cd265aadc6d6c843517e5f30777a40a7a28fa30a42dbf3f400a0b"
+    }
+  ],
+  "exe_sha256": "bd8d71689f65c216636c8d330acb6df1f754d9d7fcfa5a48ba16ca7e986d6e72",
+  "no_test_runner_or_game_save_or_prior_patch_included": true,
+  "unzipped_relocated_readonly_cli_exit_code": 0
+}

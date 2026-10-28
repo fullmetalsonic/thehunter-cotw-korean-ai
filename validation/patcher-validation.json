@@ -1,0 +1,168 @@
+{
+  "timestampUtc": "2026-10-28T16:04:41.0939490Z",
+  "realGameModified": false,
+  "payloadMode": "dummy",
+  "overall": "PASS",
+  "results": [
+    {
+      "name": "update-same-version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "update-new-version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "update-older-release",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "update-semver-numeric-and-metadata",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "update-prerelease-and-draft-excluded",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "update-invalid-version-and-json",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "update-offline-timeout-rate-limit-nonblocking",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "update-untrusted-release-link-rejected",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "clean-apply-restore",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "existing-patch-restore",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "mixed-existing-and-absent",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "reapply-and-idempotent-restore",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "new-patch-version-after-previous-version-restore",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "payload-tamper-blocks-before-write",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "unknown-steam-build",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "unknown-core-version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "restore-after-steam-game-update",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "running-game",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "second-file-failure-rolls-back-apply",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "second-file-failure-rolls-back-restore",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "user-edit-blocks-restore-and-apply",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "user-deletion-blocks-restore",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "unrelated-dropzone-file-preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "backup-corruption-blocks-all-writes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "backup-metadata-corruption",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "invalid-path-and-traversal",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "core-file-missing",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "restore-without-payload-files",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "restore-in-new-process",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "target-junction-rejected",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "backup-junction-rejected",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "read-only-payload-junction-hash-verified",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}
