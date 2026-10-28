@@ -1,5 +1,5 @@
 {
-  "timestampUtc": "2026-10-28T16:04:41.8974207Z",
+  "timestampUtc": "2026-10-28T20:31:23.5996866Z",
   "realGameModified": false,
   "payloadMode": "real-package",
   "overall": "PASS",
@@ -9,5 +9,6 @@
       "status": "PASS",
       "detail": ""
     }
-  ]
+  ],
+  "tested_package_version": "1.0.1"
 }

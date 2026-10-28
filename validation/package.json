@@ -1,21 +1,52 @@
 {
   "status": "PASS",
-  "zip_name": "theHunterCotW-AI-Korean-v1.0.0.zip",
-  "zip_bytes": 18493218,
-  "zip_sha256": "08ce468575a76ff44f740861d662a6f0f309d0d4d18ff65ee0a492567891733a",
+  "patch_version": "1.0.1",
+  "supported_steam_build": "26051119",
+  "zip_name": "theHunterCotW-AI-Korean-v1.0.1.zip",
+  "zip_bytes": 18493323,
+  "zip_sha256": "a65dc033499b64d0dbc3cf10f8c13d4babdc2ea579146231c42aeb062f8b8e22",
   "zip_members": 8,
   "zip_crc_and_all_member_sha256_match": true,
+  "internal_checksum_manifest_verified": true,
+  "external_manifest_in_zip": false,
   "payload_files": [
     {
       "relativePath": "settings/hp_settings/string_ids.stringlookup",
-      "sha256": "992e6a38abf0c9e4ebfb9d9f3fc56b3437183d4f805af35069fd20ebfdb8ba1d"
+      "sha256": "9cc148f42457bddf668bea41b8d91e645373b75214035190dfd99b2f5d8eb404"
     },
     {
       "relativePath": "ui/font_en.gfx",
       "sha256": "a1d40be8448cd265aadc6d6c843517e5f30777a40a7a28fa30a42dbf3f400a0b"
     }
   ],
-  "exe_sha256": "bd8d71689f65c216636c8d330acb6df1f754d9d7fcfa5a48ba16ca7e986d6e72",
+  "exe_sha256": "f82704a08d9e6c5bc32827f6c896cd44f0251cb4f5edeaa608670520546fd92a",
+  "embedded_manifest_matches_root_manifest": true,
+  "public_repository_manifest_matches_root_manifest": true,
+  "supported_build_matches_source_validation": true,
+  "readme_matches_current_public_repository": true,
   "no_test_runner_or_game_save_or_prior_patch_included": true,
-  "unzipped_relocated_readonly_cli_exit_code": 0
+  "representative_private_font_internal_path_steamid_scan": "PASS",
+  "known_os_ui_font_reference": [
+    {
+      "member": "AI 자동 번역 패치.exe",
+      "reference": "맑은 고딕",
+      "purpose": "OS-installed patcher UI font requested by existing Patcher.cs; no font file bundled"
+    }
+  ],
+  "unzipped_relocated_readonly_cli_exit_code": 0,
+  "game_apply_executed": false,
+  "gitleaks_status": "PASS",
+  "gitleaks_exit_code": 0,
+  "gitleaks_scope": "exact new v1.0.1 package directory, eight files, ~45.69 MB; --redact=100 --exit-code 42",
+  "public_repository_validation_hashes_match_new_text": true,
+  "package_member_sha256": {
+    "AI 자동 번역 패치.exe": "f82704a08d9e6c5bc32827f6c896cd44f0251cb4f5edeaa608670520546fd92a",
+    "README.md": "05913ee4c6f62a45332ee59aca37bf805363e121480a8e28da3b7e8ce27e3452",
+    "licenses/FONT-NOTICE.txt": "8fd1d5522af6204f94deae1764abee1cdc10bab31ec956389a9b7a5b6bbd9676",
+    "licenses/Noto-Sans-KR-OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "licenses/Noto-Sans-OFL.txt": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb",
+    "payload/dropzone/settings/hp_settings/string_ids.stringlookup": "9cc148f42457bddf668bea41b8d91e645373b75214035190dfd99b2f5d8eb404",
+    "payload/dropzone/ui/font_en.gfx": "a1d40be8448cd265aadc6d6c843517e5f30777a40a7a28fa30a42dbf3f400a0b",
+    "SHA256SUMS.txt": "3c4e6edc018e823464abdb4975d6366b7d01d8664a071bfdf184ea9fd68c9204"
+  }
 }

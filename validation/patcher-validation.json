@@ -164,5 +164,6 @@
       "status": "PASS",
       "detail": ""
     }
-  ]
+  ],
+  "reuse_for_version_1_0_1": "Unmodified patcher source; existing 32 sandbox checks retained. New package manifest/payload verified by the separate real-payload test."
 }

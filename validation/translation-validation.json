@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-28T16:05:06.304175+00:00",
+  "checked_utc": "2026-10-28T20:30:52.652393+00:00",
   "status": "PASS",
   "source_rows": 22079,
   "source_english_characters": 2043422,
@@ -13,7 +13,10 @@
   "protected_tokens_tags_linebreak_differences": 0,
   "latin_without_hangul_rows": 235,
   "latin_review": "Scientific names, Gaelic place names, product and technical brands, key names, SI units, initials, and formatting/variable tokens retained. English resource placeholder heading translated; no untranslated English sentences in this candidate set.",
-  "output_sha256": "992e6a38abf0c9e4ebfb9d9f3fc56b3437183d4f805af35069fd20ebfdb8ba1d",
+  "output_sha256": "9cc148f42457bddf668bea41b8d91e645373b75214035190dfd99b2f5d8eb404",
   "old_korean_translation_used": false,
-  "runtime_scope": "Recorded separately; this report is static source/structure validation."
+  "runtime_scope": "Recorded separately; this report is static source/structure validation.",
+  "version": "1.0.1",
+  "previous_payload_sha256": "992e6a38abf0c9e4ebfb9d9f3fc56b3437183d4f805af35069fd20ebfdb8ba1d",
+  "revised_rows": 6
 }
