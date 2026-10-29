@@ -5,9 +5,9 @@
   "all_unlisted_prefix_and_suffix_bytes": "PASS",
   "adf_metadata_bounds_utf8_nul_unique_sorted_hashes": "PASS",
   "original_sha256": "485e80c5c1a8e4cca83ecc2feb8fe92b89457c1d3c61bdea6353ffaad82e19b0",
-  "output_sha256": "9cc148f42457bddf668bea41b8d91e645373b75214035190dfd99b2f5d8eb404",
-  "bytes": 40991470,
-  "append_bytes": 2182600,
+  "output_sha256": "2864662dbebe4bbe7fa732234253c9f7f405d18c4bbedc31cea3a6b380c53dd1",
+  "bytes": 40992214,
+  "append_bytes": 2183344,
   "source_rows": 22079,
   "installation_modified": false,
   "input_policy": "Fresh translation from original game English and IDs only; no prior Korean translation inputs."

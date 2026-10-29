@@ -165,5 +165,6 @@
       "detail": ""
     }
   ],
-  "reuse_for_version_1_0_1": "Unmodified patcher source; existing 32 sandbox checks retained. New package manifest/payload verified by the separate real-payload test."
+  "reuse_for_version_1_0_1": "Unmodified patcher source; existing 32 sandbox checks retained. New package manifest/payload verified by the separate real-payload test.",
+  "reuse_for_version_1_0_2": "Patcher source unchanged; existing 32 sandbox checks retained. New public/private manifest and payload each passed separate real-payload apply/restore tests."
 }

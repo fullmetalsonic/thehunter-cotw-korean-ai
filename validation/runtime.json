@@ -22,7 +22,7 @@
   "absolute_filesystem_test": "FAIL: startup crash in isolated absolute-filesystem trial; relative filesystem main menu passed without changing ADF or font",
   "runtime_limit": "Native file-open tracing and complete gameplay were not performed.",
   "runtime_test_version": "1.0.0",
-  "current_version": "1.0.1",
-  "current_public_text_sha256": "9cc148f42457bddf668bea41b8d91e645373b75214035190dfd99b2f5d8eb404",
-  "current_version_runtime": "미실행: text-only six-row revision; public font unchanged; prior main-menu evidence applies to v1.0.0"
+  "current_version": "1.0.2",
+  "current_public_text_sha256": "2864662dbebe4bbe7fa732234253c9f7f405d18c4bbedc31cea3a6b380c53dd1",
+  "current_version_runtime": "미실행: UI and linked-reference revision; both font files unchanged; prior public main-menu evidence applies to v1.0.0"
 }

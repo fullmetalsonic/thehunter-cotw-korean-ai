@@ -1,10 +1,11 @@
 {
   "status": "PASS",
-  "patch_version": "1.0.1",
+  "checked_utc": "2026-10-29T12:59:01.042198+00:00",
+  "patch_version": "1.0.2",
   "supported_steam_build": "26051119",
-  "zip_name": "theHunterCotW-AI-Korean-v1.0.1.zip",
-  "zip_bytes": 18493323,
-  "zip_sha256": "a65dc033499b64d0dbc3cf10f8c13d4babdc2ea579146231c42aeb062f8b8e22",
+  "zip_name": "theHunterCotW-AI-Korean-v1.0.2.zip",
+  "zip_bytes": 18493350,
+  "zip_sha256": "b736bee90325d278aa8ab2d009f3c66303a2a2f536ed25e12e16f125cb705844",
   "zip_members": 8,
   "zip_crc_and_all_member_sha256_match": true,
   "internal_checksum_manifest_verified": true,
@@ -12,41 +13,49 @@
   "payload_files": [
     {
       "relativePath": "settings/hp_settings/string_ids.stringlookup",
-      "sha256": "9cc148f42457bddf668bea41b8d91e645373b75214035190dfd99b2f5d8eb404"
+      "sha256": "2864662dbebe4bbe7fa732234253c9f7f405d18c4bbedc31cea3a6b380c53dd1"
     },
     {
       "relativePath": "ui/font_en.gfx",
       "sha256": "a1d40be8448cd265aadc6d6c843517e5f30777a40a7a28fa30a42dbf3f400a0b"
     }
   ],
-  "exe_sha256": "f82704a08d9e6c5bc32827f6c896cd44f0251cb4f5edeaa608670520546fd92a",
+  "exe_sha256": "67f37f5c77462f9de1aaf2e77000b5481c0e3dafa692a3895aa4923f27bf93e9",
   "embedded_manifest_matches_root_manifest": true,
   "public_repository_manifest_matches_root_manifest": true,
+  "original_source_sha256_verified": "485e80c5c1a8e4cca83ecc2feb8fe92b89457c1d3c61bdea6353ffaad82e19b0",
   "supported_build_matches_source_validation": true,
   "readme_matches_current_public_repository": true,
+  "public_repository_validation_hashes_match_new_text": true,
   "no_test_runner_or_game_save_or_prior_patch_included": true,
   "representative_private_font_internal_path_steamid_scan": "PASS",
+  "representative_scan_patterns": [
+    "private_local",
+    "internal_path",
+    "steam_id",
+    "prior_patch",
+    "font_file"
+  ],
   "known_os_ui_font_reference": [
     {
       "member": "AI 자동 번역 패치.exe",
       "reference": "맑은 고딕",
-      "purpose": "OS-installed patcher UI font requested by existing Patcher.cs; no font file bundled"
+      "purpose": "Existing OS-installed patcher UI font reference; no Malgun game font bundled"
     }
   ],
   "unzipped_relocated_readonly_cli_exit_code": 0,
   "game_apply_executed": false,
   "gitleaks_status": "PASS",
-  "gitleaks_exit_code": 0,
-  "gitleaks_scope": "exact new v1.0.1 package directory, eight files, ~45.69 MB; --redact=100 --exit-code 42",
-  "public_repository_validation_hashes_match_new_text": true,
   "package_member_sha256": {
-    "AI 자동 번역 패치.exe": "f82704a08d9e6c5bc32827f6c896cd44f0251cb4f5edeaa608670520546fd92a",
-    "README.md": "05913ee4c6f62a45332ee59aca37bf805363e121480a8e28da3b7e8ce27e3452",
-    "licenses/FONT-NOTICE.txt": "8fd1d5522af6204f94deae1764abee1cdc10bab31ec956389a9b7a5b6bbd9676",
+    "AI 자동 번역 패치.exe": "67f37f5c77462f9de1aaf2e77000b5481c0e3dafa692a3895aa4923f27bf93e9",
+    "README.md": "570bf1c9838c3f8266255d2d4aa8315636edfd4df73b6a051d464959f80f2eac",
+    "licenses/FONT-NOTICE.txt": "68a783ed3312d35a38c7f0e7d86f2bcb987e4a5b0d2d065fa103d16e249703a5",
     "licenses/Noto-Sans-KR-OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
     "licenses/Noto-Sans-OFL.txt": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb",
-    "payload/dropzone/settings/hp_settings/string_ids.stringlookup": "9cc148f42457bddf668bea41b8d91e645373b75214035190dfd99b2f5d8eb404",
+    "payload/dropzone/settings/hp_settings/string_ids.stringlookup": "2864662dbebe4bbe7fa732234253c9f7f405d18c4bbedc31cea3a6b380c53dd1",
     "payload/dropzone/ui/font_en.gfx": "a1d40be8448cd265aadc6d6c843517e5f30777a40a7a28fa30a42dbf3f400a0b",
-    "SHA256SUMS.txt": "3c4e6edc018e823464abdb4975d6366b7d01d8664a071bfdf184ea9fd68c9204"
-  }
+    "SHA256SUMS.txt": "d2c949c4be911b1d32a3711a41f41f1ad286c081cbb085e686b5278d90e11fd5"
+  },
+  "gitleaks_exit_code": 0,
+  "gitleaks_scope": "exact new v1.0.2 package directory; eight files; 45691631 bytes scanned; --redact=100 --exit-code 42"
 }

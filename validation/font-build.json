@@ -105,5 +105,6 @@
     "scaleform_unsorted_code_table_support": "미확인: 규약 위반 코드를 런타임에 허용한다고 가정하지 않음"
   },
   "runtime_test": "Recorded separately.",
-  "v1.0.1_reuse": "Public font bytes unchanged; current translated corpus checked separately in font-coverage.json"
+  "v1.0.1_reuse": "Public font bytes unchanged; current translated corpus checked separately in font-coverage.json",
+  "v1.0.2_reuse": "Public font bytes unchanged; current corpus coverage checked separately in font-coverage.json"
 }

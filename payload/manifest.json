@@ -1,5 +1,5 @@
 {
-  "patchVersion": "1.0.1",
+  "patchVersion": "1.0.2",
   "supportedSteamBuild": "26051119",
   "codeFinalVersion": "3366163",
   "archivesVersion": "3322479",
@@ -7,7 +7,7 @@
   "files": [
     {
       "relativePath": "settings/hp_settings/string_ids.stringlookup",
-      "sha256": "9cc148f42457bddf668bea41b8d91e645373b75214035190dfd99b2f5d8eb404"
+      "sha256": "2864662dbebe4bbe7fa732234253c9f7f405d18c4bbedc31cea3a6b380c53dd1"
     },
     {
       "relativePath": "ui/font_en.gfx",

@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "input_file": "string_ids.stringlookup",
-  "input_sha256": "9cc148f42457bddf668bea41b8d91e645373b75214035190dfd99b2f5d8eb404",
+  "input_sha256": "2864662dbebe4bbe7fa732234253c9f7f405d18c4bbedc31cea3a6b380c53dd1",
   "payload_sha256": "a1d40be8448cd265aadc6d6c843517e5f30777a40a7a28fa30a42dbf3f400a0b",
   "rows": 22079,
   "visible_codepoints": 1516,
@@ -36,5 +36,5 @@
     }
   ],
   "interpretation": "PASS는 본문 font_id=1 가시문자와 두 폰트 한글 커버 기준. 제목 font_id=2 비한글 누락은 목록 참고.",
-  "runtime_test": "v1.0.1 미실행; identical public font main menu checked with v1.0.0; title-symbol fallback unverified"
+  "runtime_test": "v1.0.2 미실행; public font identical to v1.0.0 main-menu-tested font; UI pixel layout and title-symbol fallback unverified"
 }
